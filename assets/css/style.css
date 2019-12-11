@@ -1,0 +1,349 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -----------ABOUT SECTION------------- */
+
+.aboutSection p {
+    font-size: 14px;
+}
+
+
+/* ----------SERVICES SECTION---------- */
+
+.servicesHeading {
+    left: 18%;
+    position: relative;
+}
+
+.servicesMenu {
+    position: relative;
+    left: 14%;
+    margin-bottom: 5%;
+    width: 75%;
+}
+
+.servicesLinks li {
+    margin-top: 4%;
+    background-color: black;
+}
+
+.servicesLinks a {
+    text-align: center;
+    color: white !important;
+}
+
+/* --------------FOOTER---------------- */
+
+.footerNav{
+    list-style: none;
+    list-style-position: inside;
+}
+
+.footerNav:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.footerNav li{
+    float: left;
+    margin-right: 20px;
+}
+
+.footerNav li a{
+    color: white;
+}
+
+.copyright {
+    color: white;
+    width: 60vw;
+    position: relative;
+    left: 56%;
+}
+
+/* --------------TITLES--------------- */
+
+.shopTitle {
+    text-align: center;
+    width: 69vw;
+    left: 14%;
+    position: relative;
+    margin-top: 2%;
+}
+
+.singleProductTitle {
+    text-align: center;
+    width: 69vw;
+    left: 14%;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.cartTitle {
+    text-align: center;
+    width: 69vw;
+    left: 14%;
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.checkoutTitle {
+    text-align: center;
+    width: 69vw;
+    left: 10%;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* --------------PRODUCTS CARD------------ */
+
+.productCard{
+    border: 1px solid black;
+    padding: 2%;
+}
+
+.productCard a {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em;
+}
+
+.productCard img{
+    padding: 5%;
+    border-bottom: 1px solid black;
+}
+
+/* --------------BUTTONS------------------- */
+
+.proceedButton a{
+    background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    left: 23% !important;
+}
+
+.orderButton{
+    background-color: #464646 !important;
+}
+
+.addButton {
+    background-color: #464646 !important;
+    box-shadow: 0 0 3px 0 black !important;
+    left: 16% !important;
+    position: relative !important;
+    margin-bottom: 11% !important;
+    color: white !important;
+    border-radius: 0 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* ----------CHECKOUT FIELDS------------------- */
+
+.billingFields p{
+    box-shadow: 0 0 3px 0 black !important;
+    margin-bottom: 3% !important;
+}
+
+/* ----------MEDIA QUERY------------------- */
+
+@media only screen and (min-width: 760px) {
+    .headerImage {
+        height: 38vh !important;
+    }
+
+    /* --------------LOGO------------------- */
+
+    .logo img{
+        width: 20vw;
+        height: 10vh;
+        position: relative;
+    }
+
+    /* -----------ABOUT SECTION------------- */
+    .aboutSection {
+        width: 90%;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .aboutSection p {
+        font-size: 14px;
+    }
+
+    /* -----------SINGLE PRODUCT PAGE------------- */
+
+    .singleProductSection p{
+        font-size: 17px;
+    }
+
+    .cartItem {
+        border-bottom: .5px solid black;
+    }
+
+    /* ----------SERVICES SECTION---------- */
+
+    .servicesHeading {
+        left: 34%;
+    }
+
+    .servicesMenu {
+        margin-bottom: 0%;
+    }
+
+    .servicesSection{
+        left: 11%;
+        height: 45vh !important;
+    }
+
+    .servicesLinks li {
+        width: 30% !important;
+        padding: 7% !important;
+        margin-right: 3% !important;
+    }
+
+    .servicesLinks a {
+        font-size: 1.34rem;
+    }
+
+    /* --------------BUTTONS------------------- */
+    .proceedButton a{
+        left: 34% !important;
+    }
+
+    /* ----------CHECKOUT FIELDS------------------- */
+
+    .billingFields p{
+        margin-bottom: 3% !important;
+    }
+
+    /* --------------FOOTER---------------- */
+
+    .footerNav{
+        position: relative;
+        right: 15%;
+    }
+
+    .copyright {
+        width: 26vw;
+    }
+
+}
+
+
+/* ----------MEDIA QUERY------------------- */
+
+@media only screen and (min-width: 1020px) {
+    .headerImage {
+        height: 45vh !important;
+    }
+
+    .topNAV {
+        top: 10%;
+        width: 58vw;
+        height: 14vh;
+        margin: 0 auto;
+        padding-left: 13%;
+    }
+
+    .navLinks {
+        font-size: 19px;
+        margin-left: 20px;
+    }
+
+    /* -----------ABOUT SECTION------------- */
+    .aboutSection {
+
+    }
+
+    .aboutSection p {
+        font-size: 17px;
+    }
+
+
+    .cartItem {
+        border-bottom: .5px solid black;
+    }
+
+    /* ----------SERVICES SECTION---------- */
+
+    .servicesHeading {
+        left: 34%;
+    }
+
+    .servicesMenu {
+        margin-bottom: 0%;
+    }
+
+    .servicesSection{
+        height: 45vh !important;
+    }
+
+    .servicesLinks li {
+        width: 30% !important;
+        padding: 7% !important;
+        margin-right: 3% !important;
+    }
+
+    .servicesLinks a {
+        font-size: 1.34rem;
+    }
+
+    /* -----------NEWS SECTION------------- */
+
+    .newsButton{
+        width: 23%;
+        padding: 1%;
+        left: 39%;
+    }
+
+    /* --------------BUTTONS------------------- */
+    .proceedButton a{
+        left: 34% !important;
+    }
+
+    /* ----------CHECKOUT FIELDS------------------- */
+
+    .billingFields p{
+        margin-bottom: 3% !important;
+    }
+
+    .billingFields{
+        left: 15%;
+        position: relative;
+    }
+
+    /* ----------SINGLE PRODUCTS------------------- */
+
+    .singleImage {
+        border: 1px solid black;
+    }
+
+    .description {
+        position: absolute;
+        width: 41vw;
+        bottom: 68%;
+        left: 52%;
+        font-size: 22px;
+    }
+
+    /* --------------FOOTER---------------- */
+
+    .footerSection{
+        top: 10%;
+    }
+
+    .copyright {
+        left: 0;
+    }
+
+}
