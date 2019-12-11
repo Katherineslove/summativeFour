@@ -6,13 +6,15 @@
             <div class="aboutSection">
                 <div>
                     <?php if( !is_singular() ): ?>
+                         <h2 class="text-center"><?php the_title(); ?></h2>
                         <?php the_excerpt() ; ?>
                     <?php else: ?>
+                         <h2><?php the_title(); ?></h2>
                         <?php the_content(); ?>
                     <?php endif; ?>
                 </div>
                 <?php if( !is_singular() ): ?>
-                    <a href="<?php the_permalink(); ?>" class="btn btn-primary">Read More</a>
+                    <a href="<?php the_permalink(); ?>" class="btn btn-dark">Read More</a>
                 <?php endif; ?>
             </div>
         </div>

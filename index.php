@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-<?php if (have_posts()): the_post(); ?>
+<?php if( have_posts() ): ?>
+<?php while (have_posts()): the_post(); ?>
     <div class="row m-0">
         <div class="col d-flex justify-content-center">
             <div class="aboutSection">
@@ -17,6 +18,7 @@
             </div>
         </div>
     </div>
+<?php endwhile; ?>
 <?php endif; ?>
 
 <?php get_footer(); ?>
