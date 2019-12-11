@@ -4,7 +4,16 @@
     <div class="row m-0">
         <div class="col d-flex justify-content-center">
             <div class="aboutSection">
-                <?php the_content(); ?>
+                <div>
+                    <?php if( !is_singular() ): ?>
+                        <?php the_excerpt() ; ?>
+                    <?php else: ?>
+                        <?php the_content(); ?>
+                    <?php endif; ?>
+                </div>
+                <?php if( !is_singular() ): ?>
+                    <a href="<?php the_permalink(); ?>" class="btn btn-primary">Read More</a>
+                <?php endif; ?>
             </div>
         </div>
     </div>
